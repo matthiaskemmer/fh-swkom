@@ -1,0 +1,35 @@
+@dms_HostAddress = http://localhost:8081
+
+GET {{dms_HostAddress}}/
+Accept: application/json
+
+### Get all documents
+
+GET {{dms_HostAddress}}/documents/
+Accept: application/json
+
+### Get document by Id
+
+GET {{dms_HostAddress}}/documents/1
+Accept: application/json
+
+### Create/Upload document
+
+POST {{dms_HostAddress}}/documents/
+Content-Type: application/json
+{
+  "Id": 4,
+  "Title": "Document #4"
+}
+
+### Update document (id=4)
+
+PUT {{dms_HostAddress}}/documents/
+Content-Type: application/json
+{
+  "Id": 4,
+  "Title": "Document #4 (updated)"
+}
+
+### Delete Document (id=4)
+DELETE {{dms_HostAddress}}/documents/4
