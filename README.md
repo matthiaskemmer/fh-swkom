@@ -19,3 +19,9 @@ The goal of this project is a Document Management System (DMS) for archiving doc
 Techstack: C#, ASP .Net 8.0, Docker, RabbitMQ, PostgreSQL, ElasticSearch, Git
 
 ![architecture](./img/SWKOM_architecture.png "architecture")
+
+### Run
+
+Open terminal and go to project folder containing docker compose file.
+
+Build & Run project with: `docker compose up --build`
