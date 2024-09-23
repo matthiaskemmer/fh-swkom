@@ -1,14 +1,11 @@
 version: '3.8'
 
 services:
-
-  dms:
-    image: rest-api-image
+  dms-api:
     build:
-      context: ./RestAPI
+      context: .
       dockerfile: Dockerfile
     ports:
       - "8081:8080" # Map ASP.NET default port 8080 to 8081
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:8080 # Stellt sicher, dass nur HTTP verwendet wird
