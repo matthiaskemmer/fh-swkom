@@ -16,4 +16,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Define container entry point
-ENTRYPOINT ["dotnet", "dms.dll"]
+ENTRYPOINT ["dotnet", "rest-api.dll"]

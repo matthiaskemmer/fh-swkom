@@ -1,5 +1,5 @@
 
-namespace dms
+namespace rest_api
 {
     public class Program
     {

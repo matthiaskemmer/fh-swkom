@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dms", "RestAPI\dms.csproj", "{5DD6AAFE-3674-4D38-94DD-7052336846C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rest-api", "rest-api\rest-api.csproj", "{5DD6AAFE-3674-4D38-94DD-7052336846C2}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{79132E5C-1A85-4403-BD4F-6EC8C92D2548}"
 EndProject

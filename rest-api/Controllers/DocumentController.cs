@@ -1,7 +1,7 @@
-﻿using dms.Models;
+﻿using rest_api.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dms.Controllers
+namespace rest_api.Controllers
 {
     [ApiController]
     [Route("/")]

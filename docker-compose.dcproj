@@ -7,7 +7,7 @@
     <ProjectGuid>79132e5c-1a85-4403-bd4f-6ec8c92d2548</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>dms</DockerServiceName>
+    <DockerServiceName>rest-api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">
